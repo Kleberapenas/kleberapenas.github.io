@@ -1,0 +1,63 @@
+@import url(animations.css);
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --backgroundColorDark:#08590D;
+    --backgroundColorLight:#10AD19;
+}
+
+#index {
+    margin: 0px;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 5vh;
+    width: 100%;
+    background-color: red;
+}
+
+#index li {
+    height: fit-content;
+    margin: 1vw;
+    font-size: 2vw;
+}
+
+#intro {
+    position: relative;
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    /*Background*/
+    background-image: linear-gradient(var(--backgroundColorLight),var(--backgroundColorDark));
+}
+
+#intro img {
+    position: relative;
+    height: 90%;
+    margin: 1vh;
+    border-radius: 130px;
+}
+
+#bem_vindo {
+    height: 100%;
+}
+
+#bem_vindo h1 {
+    font-size: 10vh;
+}
+
+#bem_vindo h2 {
+    font-size: 4vh;
+}
+
+#bem_vindo p {
+    font-size: 2vh;
+}
