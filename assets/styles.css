@@ -9,6 +9,7 @@
 :root {
     --backgroundColorDark:#08590D;
     --backgroundColorLight:#10AD19;
+    --ContrastColorDark:#5C0423;
 }
 
 #index {
@@ -19,7 +20,8 @@
     align-items: center;
     height: 5vh;
     width: 100%;
-    background-color: red;
+    background-color: var(--ContrastColorDark);
+    box-shadow: 0px 0px 5px #FD0A5F;
 }
 
 #index li {
