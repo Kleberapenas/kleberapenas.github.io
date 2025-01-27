@@ -42,13 +42,33 @@
 }
 
 #sliderFerramentas .item1 {
-    animation-delay: calc(30s/8*(8-1)*-1);
+    animation-delay: calc(var(--animationspeed) / var(--numeberoftools) * (var(--numeberoftools) - 1) *-1);
 }
 
 #sliderFerramentas .item2 {
-    animation-delay: calc(30s/8*(8-2)*-1);
+    animation-delay: calc(var(--animationspeed) / var(--numeberoftools) * (var(--numeberoftools) - 2)*-1)s;
 }
 
 #sliderFerramentas .item3 {
-    animation-delay: calc(30s/8*(8-3)*-1);
+    animation-delay: calc(var(--animationspeed) / var(--numeberoftools) * (var(--numeberoftools) - 3)*-1);
+}
+
+#sliderFerramentas .item4 {
+    animation-delay: calc(var(--animationspeed) / var(--numeberoftools) * (var(--numeberoftools) - 4)*-1);
+}
+
+#sliderFerramentas .item5 {
+    animation-delay: calc(var(--animationspeed) / var(--numeberoftools) * (var(--numeberoftools) - 5)*-1);
+}
+
+#sliderFerramentas .item6 {
+    animation-delay: calc(var(--animationspeed) / var(--numeberoftools) * (var(--numeberoftools) - 6)*-1);
+}
+
+#sliderFerramentas .item7 {
+    animation-delay: calc(var(--animationspeed) / var(--numeberoftools) * (var(--numeberoftools) - 7)*-1);
+}
+
+#sliderFerramentas .item8 {
+    animation-delay: calc(var(--animationspeed) / var(--numeberoftools) * (var(--numeberoftools) - 8)*-1);
 }
