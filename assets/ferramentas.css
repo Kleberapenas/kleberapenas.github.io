@@ -3,7 +3,7 @@
 
 :root {
     --animationspeed:30s;
-    --numeberoftools:8;
+    --numeberoftools:10;
 }
 
 @property --numeberoftools{
@@ -20,7 +20,7 @@
 
 #sliderFerramentas {
     border: 1px solid black;
-    width: 80%;
+    width: 90%;
     margin-inline: auto;
     position: relative;
     height: 15vh;
@@ -29,7 +29,7 @@
 }
 
 #sliderFerramentas .item{
-    width: 200px;
+    width: 10%;
     height: 100px;
     background-color: yellow;
     border-radius: 6px;
@@ -71,4 +71,12 @@
 
 #sliderFerramentas .item8 {
     animation-delay: calc(var(--animationspeed) / var(--numeberoftools) * (var(--numeberoftools) - 8)*-1);
+}
+
+#sliderFerramentas .item9 {
+    animation-delay: calc(var(--animationspeed) / var(--numeberoftools) * (var(--numeberoftools) - 9)*-1);
+}
+
+#sliderFerramentas .item10 {
+    animation-delay: calc(var(--animationspeed) / var(--numeberoftools) * (var(--numeberoftools) - 10)*-1);
 }
