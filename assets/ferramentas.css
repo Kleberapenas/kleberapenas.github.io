@@ -3,7 +3,7 @@
 
 :root {
     --animationspeed:30s;
-    --numeberoftools:10;
+    --numeberoftools:9;
 }
 
 @property --numeberoftools{
@@ -19,20 +19,19 @@
 }
 
 #sliderFerramentas {
-    border: 1px solid black;
     width: 90%;
     margin-inline: auto;
     position: relative;
     height: 15vh;
-    margin-top: 5rem;
+    margin-top: 3vh;
     overflow: hidden;
 }
 
 #sliderFerramentas .item{
     width: 10%;
-    height: 100px;
+    height: 90%;
     background-color: yellow;
-    border-radius: 6px;
+    border-radius: 20px;
     position: absolute;
     left: 100%;
     animation-name: scrollleft;
@@ -40,6 +39,7 @@
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
+
 
 #sliderFerramentas .item1 {
     animation-delay: calc(var(--animationspeed) / var(--numeberoftools) * (var(--numeberoftools) - 1) *-1);
