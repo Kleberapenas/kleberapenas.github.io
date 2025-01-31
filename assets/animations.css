@@ -1,5 +1,18 @@
 @keyframes scrollleft{
-    to {
-        left: -200px;
+    0%,5%,85% {
+        opacity: 0;
+    }
+    25%,75% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 0;
+        left: -200px
     }
 }

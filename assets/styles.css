@@ -1,13 +1,16 @@
 @import url(animations.css);
 @import url(ferramentas.css);
+@import url('https://fonts.googleapis.com/css2?family=Turret+Road:wght@200;300;400;500;700;800&display=swap');
 
 * {
     margin: 0vh;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Turret Road';
 }
 
 :root {
+    --corFonte:white;
     --mainColor1:#339966;
     --mainColor2:#d3feea;
     --mainColor3:#07301a;
@@ -25,12 +28,17 @@
     list-style: none;
     height: 5vh;
     width: 100%;
-    background-color: var(--mainColor4);
-    box-shadow: 0px 0px 1vh var(--mainColor3);
+    background-color: var(--mainColor1);
     /*Flex Box stuff*/
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    transition: 1s;
+}
+
+#index:hover {
+    border-radius: 0px;
+    box-shadow: 0px 0px 2vh var(--mainColor2);
 }
 
 #index li {
@@ -49,7 +57,7 @@
     flex-direction: row;
     align-items: end;
     /*Background*/
-    background-image: linear-gradient(var(--mainColor2),var(--mainColor1));
+    background-image: linear-gradient(var(--mainColor4),var(--mainColor1));
 }
 
 #intro img {
@@ -57,6 +65,11 @@
     height: 80%;
     margin: 1vh;
     border-radius: 20vh;
+}
+
+#intro::after {
+    position: absolute;
+    height: 100px;
 }
 
 #bem_vindo {
