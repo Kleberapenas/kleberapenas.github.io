@@ -3,11 +3,12 @@
 
 :root {
     --animationspeed:20s;
-    --numeberoftools:7;
+    --numeberoftools:8;
 }
 
 #ferramentas {
-    height: 50vh;
+    padding: 5vh;
+    height: 55vh;
     width: 100%;
     background-color: var(--mainColor3);
     /*Flex*/
@@ -24,11 +25,19 @@
     margin: 0.5vh;
 }
 
+#ferramentas p {
+    font-size: 2vh;
+    margin: 0.5vh;
+    width: 40%;
+    height: fit-content;
+    text-align: center;
+}
+
 #sliderFerramentas {
     width: 90%;
     margin-inline: auto;
     position: relative;
-    height: 15vh;
+    height: 20vh;
     margin-top: 3vh;
     overflow: hidden;
 }
@@ -38,17 +47,27 @@
 }
 
 #sliderFerramentas .item{
+    filter: grayscale(100%);
     width: fit-content;
-    height: 90%;
+    height: 80%;
     border-radius: 20px;
     position: absolute;
-    left: 100%;
+    right: 100%;
     animation-name: scrollleft;
     animation-duration: var(--animationspeed);
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
 
+#sliderFerramentas:hover .item {
+    animation-play-state: paused;
+}
+
+#sliderFerramentas .item:hover {
+    filter: none;
+    scale: 1.2;
+    width: auto;
+}
 
 #sliderFerramentas .item1 {
     animation-delay: calc(var(--animationspeed) / var(--numeberoftools) * (var(--numeberoftools) - 1) *-1);

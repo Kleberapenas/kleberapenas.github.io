@@ -1,0 +1,35 @@
+@import url(styles.css);
+@import url(animations.css);
+
+#projetos {
+    background-color: var(--mainColor1);
+    height: 70vh;
+    width: 100;
+    position: relative;
+}
+
+#projetosWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40vh;
+    width: 100%;
+    position: absolute;
+}
+
+.projeto {
+    height: 80%;
+    width: 40%;
+}
+
+.projeto a {
+    height: 100%;
+    width: 100%;
+}
+
+.projeto a img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
