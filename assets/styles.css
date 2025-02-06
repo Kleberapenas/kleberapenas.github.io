@@ -16,7 +16,6 @@
     --mainColor2:#d3feea;
     --mainColor3:#07301a;
     --mainColor4:#66cc99;
-    
 }
 
 
@@ -30,11 +29,11 @@
     height: 5vh;
     width: 100%;
     background-color: var(--mainColor1);
+    transition: 1s;
     /*Flex Box stuff*/
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    transition: 1s;
 }
 
 #index:hover {
