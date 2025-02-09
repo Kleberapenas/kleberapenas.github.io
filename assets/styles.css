@@ -18,6 +18,15 @@
     --mainColor4:#66cc99;
 }
 
+#index a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#index a:hover {
+    color: black;
+    font-size: 1.1em;
+}
 
 #index {
     z-index: 1;
@@ -89,4 +98,5 @@
 #bem_vindo p {
     font-size: 2vh;
     margin: 2vh;
+    color: lightgray;
 }

@@ -6,6 +6,9 @@
     height: 70vh;
     width: 100;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #projetosWrapper {
@@ -15,21 +18,16 @@
     align-items: center;
     height: 40vh;
     width: 100%;
-    position: absolute;
 }
 
 .projeto {
-    height: 80%;
+    height: 100%;
     width: 40%;
 }
 
-.projeto a {
+.projeto img {
     height: 100%;
     width: 100%;
-}
-
-.projeto a img {
-    height: 100%;
-    width: 100%;
+    border-radius: 20px;
     object-fit: contain;
 }
