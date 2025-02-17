@@ -10,7 +10,8 @@
     padding: 5vh;
     height: 55vh;
     width: 100%;
-    background-color: var(--mainColor3);
+    
+    background-image: linear-gradient(var(--mainColor3) 90%,var(--mainColor1));
     /*Flex*/
     display: flex;
     flex-direction: column;

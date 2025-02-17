@@ -21,13 +21,11 @@
 }
 
 .projeto {
-    height: 100%;
-    width: 40%;
+    height: 40vh;
 }
 
 .projeto img {
     height: 100%;
-    width: 100%;
-    border-radius: 20px;
+    border-radius: 10vh;
     object-fit: contain;
 }
