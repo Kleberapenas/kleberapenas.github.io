@@ -18,6 +18,16 @@
     --mainColor4:#66cc99;
 }
 
+::-webkit-scrollbar {
+    width: 0.5vw;
+}
+
+::-webkit-scrollbar-button {
+    color: #66cc99;
+    width: 100%;
+    border-radius: 5vh;
+}
+
 #index a {
     text-decoration: none;
     color: inherit;
