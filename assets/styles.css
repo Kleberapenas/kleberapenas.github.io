@@ -19,11 +19,12 @@
 }
 
 ::-webkit-scrollbar {
+    position: absolute;
     width: 0.5vw;
 }
 
-::-webkit-scrollbar-button {
-    color: #66cc99;
+::-webkit-scrollbar-thumb {
+    background-color: #66cc99;
     width: 100%;
     border-radius: 5vh;
 }
